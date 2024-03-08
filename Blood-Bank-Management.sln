@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{03DA40AA-C9A9-469C-A5E9-DA93DDAB74F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blood-Bank-Management", "src\BloodBankManagement.API\Blood-Bank-Management.csproj", "{9FCDFEBD-D503-41A5-9D28-BF6F50073717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FCDFEBD-D503-41A5-9D28-BF6F50073717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCDFEBD-D503-41A5-9D28-BF6F50073717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCDFEBD-D503-41A5-9D28-BF6F50073717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCDFEBD-D503-41A5-9D28-BF6F50073717}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FCDFEBD-D503-41A5-9D28-BF6F50073717} = {03DA40AA-C9A9-469C-A5E9-DA93DDAB74F8}
+	EndGlobalSection
+EndGlobal
