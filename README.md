@@ -1,5 +1,7 @@
 # Blood Bank Management
 
+⚙️ **Status**: Work In Progress 
+
 ## Project 2: Blood Bank Management
 
 This project is also an ASP.NET Web API and helps manage a blood bank system and it's mainly goal is to help organize blood donations to health medical system.
