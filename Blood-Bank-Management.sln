@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blood-Bank-Management", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBankManagement.Core", "src\BloodBankManagement.Core\BloodBankManagement.Core.csproj", "{250B35C1-F6A8-4526-9E16-1028D8E9868F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBankManagement.Infra", "src\BloodBankManagement.Infra\BloodBankManagement.Infra.csproj", "{4337B2E2-5A36-426A-A9FC-D00C6CC90C68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{250B35C1-F6A8-4526-9E16-1028D8E9868F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{250B35C1-F6A8-4526-9E16-1028D8E9868F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{250B35C1-F6A8-4526-9E16-1028D8E9868F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4337B2E2-5A36-426A-A9FC-D00C6CC90C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4337B2E2-5A36-426A-A9FC-D00C6CC90C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4337B2E2-5A36-426A-A9FC-D00C6CC90C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4337B2E2-5A36-426A-A9FC-D00C6CC90C68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9FCDFEBD-D503-41A5-9D28-BF6F50073717} = {03DA40AA-C9A9-469C-A5E9-DA93DDAB74F8}
 		{250B35C1-F6A8-4526-9E16-1028D8E9868F} = {03DA40AA-C9A9-469C-A5E9-DA93DDAB74F8}
+		{4337B2E2-5A36-426A-A9FC-D00C6CC90C68} = {03DA40AA-C9A9-469C-A5E9-DA93DDAB74F8}
 	EndGlobalSection
 EndGlobal
