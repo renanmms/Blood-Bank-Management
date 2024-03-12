@@ -1,6 +1,3 @@
-using System;
-using System.Reflection.Metadata;
-
 namespace BloodBankManagement.Core.Entities
 {
     public class Donator
@@ -14,5 +11,6 @@ namespace BloodBankManagement.Core.Entities
         public string? BloodType { get; set; }
         public string? RhFactor { get; set; }
         public List<Donation>? Donations { get; set; }
+        public Address? Address { get; set; }
     }
 }

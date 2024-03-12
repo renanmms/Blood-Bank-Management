@@ -8,5 +8,6 @@ namespace BloodBankManagement.Core.Entities
         public int DonatorId { get; set; }
         public DateTime DonationDate { get; set; }
         public int AmountML { get; set; }
+        public Donator? Donator { get; set; }
     }
 }

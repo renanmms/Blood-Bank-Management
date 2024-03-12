@@ -9,6 +9,7 @@ namespace BloodBankManagement.Core.Entities
         public string? City { get; set; }
         public string? State { get; set; }
         public string? CEP { get; set; }
+        public int DonatorId { get; set; }
         public Donator? Donator { get; set; }
     }
 }
