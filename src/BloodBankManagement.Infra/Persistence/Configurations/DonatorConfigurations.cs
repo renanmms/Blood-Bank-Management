@@ -11,11 +11,13 @@ namespace BloodBankManagement.Infra.Persistence.Configurations
             builder.HasMany(d => d.Donations)
                 .WithOne(d => d.Donator)
                 .HasForeignKey(d => d.DonatorId)
-                .HasPrincipalKey(d => d.Id);
+                .HasPrincipalKey(d => d.Id)
+                .IsRequired();
 
             builder.HasOne(d => d.Address)
                 .WithOne(d => d.Donator)
-                .HasForeignKey<Address>(d => d.DonatorId);
+                .HasForeignKey<Address>(d => d.DonatorId)
+                .IsRequired();
         }
     }
 }
