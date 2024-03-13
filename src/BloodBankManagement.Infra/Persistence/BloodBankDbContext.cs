@@ -7,7 +7,10 @@ namespace BloodBankManagement.Infra.Persistence
 {
     public class BloodBankDbContext : DbContext
     {
-        public BloodBankDbContext(DbContextOptions<BloodBankDbContext> options) : base(options){ }
+        public BloodBankDbContext(DbContextOptions<BloodBankDbContext> options) 
+            : base(options)
+        {
+            }
 
         public DbSet<Donator> Donators { get; set; }
         public DbSet<Donation> Donations { get; set; }
