@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BloodBankManagement.Infra\BloodBankManagement.Infra.csproj" />
+    <ProjectReference Include="..\BloodBankManagement.Application\BloodBankManagement.Application.csproj" />
   </ItemGroup>
 
 </Project>
