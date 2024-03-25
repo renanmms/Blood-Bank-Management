@@ -1,3 +1,4 @@
+using Blood_Bank_ManagementBloodBankManagement.API.Extensions;
 using BloodBankManagement.Infra.Persistence;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("BloodBankCS");
 builder.Services.AddDbContext<BloodBankDbContext>(options => options.UseSqlite(connectionString));
+
+builder.Services.AddRepositories();
+builder.Services.AddBaseServices();
 
 var app = builder.Build();
 
