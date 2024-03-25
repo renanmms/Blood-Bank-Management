@@ -13,12 +13,17 @@ namespace BloodBankManagement.Infra.Repositories
             _dbContext = dbContext;
         }
 
-        public int CreateDonator(Donator donator)
+        public virtual int CreateDonator(Donator donator)
         {
             _dbContext.Donators.Add(donator);
             _dbContext.SaveChanges();
 
             return donator.Id;
+        }
+
+        public Donator GetDonatorById(int id)
+        {
+            return _dbContext.Donators.SingleOrDefault(d => d.Id == id);
         }
     }
 }
